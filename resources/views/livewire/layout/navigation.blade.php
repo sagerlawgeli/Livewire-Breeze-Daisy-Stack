@@ -56,7 +56,7 @@ $logout = function (Logout $logout) {
                             {{ __('Profile') }}
                         </a>
                         <a class="btn btn-sm btn-block btn-ghost justify-start hover:bg-secondary"
-                            href="{{ route('profile') }}" wire:navigate>
+                        wire:click="logout">
                             {{ __('Log Out') }}
                         </a>
                     </x-slot>
